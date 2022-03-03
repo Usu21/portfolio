@@ -201,10 +201,16 @@ h1,h2,h3 {
 .work__img-wrap {
     border-radius: 6px;
     overflow: hidden;
+    width: 246px;
+    height: 180px;
+}
+
+.work__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .work__title {
     font-size: 26px;
     line-height: 38px;
@@ -221,8 +227,34 @@ h1,h2,h3 {
 }
 
 .work__date {
-    padding-right: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #142850;
+    color: #FFFFFF;
+    border-radius: 16px;
 }
 .work__category {
     color: #8695A4;
+    padding-left: 26px;
+}
+
+.footer-container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 232px;
+}
+
+.element_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
