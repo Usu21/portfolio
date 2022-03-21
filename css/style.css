@@ -369,3 +369,34 @@ h1,h2,h3 {
         max-height: 230px;
     }
 }
+
+
+
+.Blog__title {
+    font-size: 44px;
+    color: #21243D;
+    padding-bottom: 22px;
+}
+
+.Blog-posts__articles {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 30px 0px 32px;
+}
+
+.Blog-posts__subtitle{
+    display: flex;
+    font-size: 30px;
+    line-height: 44px;
+    padding-bottom: 19px;
+}
+
+.Blog-posts__info {
+    padding-bottom: 15px;  
+}
+
+.Blog-posts__separator {
+    margin: 0px 26px;
+}
+.Blog__span {
+    color: #8695A4;
+}
