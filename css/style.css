@@ -33,6 +33,12 @@ h1,h2,h3 {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
 }
 
 .header {
@@ -109,8 +115,8 @@ h1,h2,h3 {
 }
 
 .main {
-    margin-top: 150px;
-    margin-bottom: 71px;
+    padding-top: 90px;
+    padding-bottom: 71px;
 }
 
 .about {
@@ -124,6 +130,7 @@ h1,h2,h3 {
 
 .about__container {
     display: flex;
+    padding-top: 60px;
 }
 
 .about__avatar {
@@ -372,31 +379,44 @@ h1,h2,h3 {
 
 
 
-.Blog__title {
+.blog__title {
     font-size: 44px;
     color: #21243D;
     padding-bottom: 22px;
 }
 
-.Blog-posts__articles {
+.blog-posts__articles {
     border-bottom: 1px solid #E0E0E0;
     padding: 30px 0px 32px;
 }
 
-.Blog-posts__subtitle{
+.blog-posts__subtitle{
     display: flex;
     font-size: 30px;
     line-height: 44px;
     padding-bottom: 19px;
 }
 
-.Blog-posts__info {
+.blog-posts__info {
     padding-bottom: 15px;  
 }
 
-.Blog-posts__separator {
+.blog-posts__separator {
     margin: 0px 26px;
 }
-.Blog__span {
+.blog__span {
     color: #8695A4;
+}
+
+@media (max-width: 480px) {
+    .blog__title {
+        color: #21243D;
+        padding-bottom: 0px;
+    }
+    .blog {
+        padding-left: 18px;
+    }
+    .main {
+        padding-top: 30px;
+    }
 }
